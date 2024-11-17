@@ -8,18 +8,24 @@ parallel-jobs = 1
 
 
 [Instagram]
+enabled = true
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
+uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
 arch = "arm64-v8a"
 
 [Tiktok]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 arch = "arm64-v8a"
 
-[X]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+[Twitter]
 build-mode = "apk"
-dpi = "120-640dpi"
-included-patches = "'Hide view count'"
+version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+arch = "all"
 
 [YouTube]
 build-mode = "both"
