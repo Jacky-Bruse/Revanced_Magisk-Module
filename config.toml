@@ -7,7 +7,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
 arch = "arm64-v8a"
 build-mode = "both"
 
@@ -37,4 +37,5 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ltd/spotify-music-and-podcasts-amazon-fire-tablet-version/"
 arch = "arm64-v8a"
 build-mode = "both"
+
 
