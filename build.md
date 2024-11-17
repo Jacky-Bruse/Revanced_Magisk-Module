@@ -1,4 +1,6 @@
 FaceBook: 490.0.0.63.82  
+Music (arm64-v8a): 7.27.53  
+Music (arm-v7a): 7.27.53  
 Tiktok: 36.5.4  
 YouTube: 19.43.41  
 
