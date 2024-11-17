@@ -16,14 +16,24 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-includin
 arch = "arm64-v8a"
 
 [X]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+build-mode = "apk"
+dpi = "120-640dpi"
 included-patches = "'Hide view count'"
 
 [YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-arch = "arm64-v8a"
 build-mode = "both"
-included-patches = "'Enable slide to seek'"
+excluded-patches = ""
+included-patches = ""
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Music]
+build-mode = "both"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [FaceBook]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
@@ -31,5 +41,5 @@ arch = "arm64-v8a"
 build-mode = "both"
 
 [Spotify]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ltd/spotify-music-and-podcasts-amazon-fire-tablet-version/"
+apkmirror-dlurl = "https://spotify.en.uptodown.com/android/"
 
