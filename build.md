@@ -1,7 +1,6 @@
-FaceBook: 492.0.0.127.80  
-Instagram: 359.2.0.64.89  
-Music (arm64-v8a): 7.29.51  
-Music (arm-v7a): 7.29.51  
+FaceBook: 493.0.0.72.158  
+Music (arm64-v8a): 7.29.52  
+Music (arm-v7a): 7.29.52  
 Tiktok: 36.5.4  
 YouTube: 19.46.42  
 
@@ -11,4 +10,4 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.3.0.rvp    
+Patches: ReVanced/patches-5.4.0.rvp    
